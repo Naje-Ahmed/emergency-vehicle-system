@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Database
+data/events.db
+*.db
+
+# Model weights (large files)
+*.pt
+*.pth
+*.onnx
+models/weights/
+
+# Snapshots / generated data
+data/snapshots/
+data/samples/
+data/audio/
+
+# Large dataset images & training runs (use Git LFS or store separately)
+data/dataset/
+models/runs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Streamlit cache
+.streamlit/
+
+# Env files
+.env
+*.env
